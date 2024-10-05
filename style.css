@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fffefe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 40%;
+  height: 50vh;
+  background-image: url(./img/ramadan.webp);
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgba(255, 221, 3, 0.594);
+  margin-bottom: 20px;
+}
+
+#timer {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(255, 221, 3, 0.594);
+}
+
+.time-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+span {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  font-size: 1em;
+  color:  rgba(255, 221, 3, 0.678);
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+}
